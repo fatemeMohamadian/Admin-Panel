@@ -34,7 +34,7 @@ export default function ChBar() {
                 </div>
             </div>
             {/* ////////////// Box 2 ////////////////////////// */}
-            <div className='lg:w-[24%] w-full bg-white shadow-lg rounded-lg flex justify-center items-center flex-wrap'>
+            <div className='lg:w-[24%] w-full bg-white shadow-lg rounded-lg flex justify-between items-center flex-wrap'>
                 <div className='w-full flex justify-evenly items-center'>
                     <div className='w-[60%] my-[20px] flex justify-evenly items-center'>
                         <span className='flex justify-center items-center px-[6px] py-[5px] bg-sky-100 rounded-sm'><PageviewIcon className='text-[#026de7] text-[25px]' /></span>
@@ -48,7 +48,7 @@ export default function ChBar() {
                     <div className='flex lg:w-[60%] w-[60%] justify-start items-center'>
                         <Interactionchart />
                     </div>
-                    <span className='flex w-[40%] justify-start *:w-full items-center flex-wrap'>
+                    <span className='flex w-[40%] justify-end *:w-full items-center flex-wrap'>
                         <p className='font-loginform3 text-[#1d2630]'>290+</p>
                         <p className='text-[18px] font-text1 text-[#026de7]'><SouthEastIcon style={{fontSize:'15px'}} className='text-sm' /> 16.3%</p>
                     </span>
