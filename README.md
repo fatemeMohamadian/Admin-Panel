@@ -3,8 +3,8 @@
 
 [Watch Demo](https://admin-panel-chi-six.vercel.app/)
 
-![1](https://github.com/user-attachments/assets/6f986135-aed5-41fa-9fb4-4fecb554cb3e)
 ![2](https://github.com/user-attachments/assets/3298e489-d87a-43da-a3bc-c1d777028751)
+![1](https://github.com/user-attachments/assets/6f986135-aed5-41fa-9fb4-4fecb554cb3e)
 
                                                           😎😉 
                                                  
