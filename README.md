@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dashboard-Admin
+**Developed By Next.Js**
 
-## Getting Started
+[Watch Demo](https://admin-panel-chi-six.vercel.app/)
 
-First, run the development server:
+![1](https://github.com/user-attachments/assets/6f986135-aed5-41fa-9fb4-4fecb554cb3e)
+![2](https://github.com/user-attachments/assets/3298e489-d87a-43da-a3bc-c1d777028751)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+                                                          😎😉 
+                                                 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ 😉Developed by <a href="https://linkedin.com/in/fateme-mohamadian-dev0824" target="blank">Fatemeh Mohamadian</a>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+ 📅2024-09-11
+ 
+ 👩‍💻Used **Html5 , React, Next.Js, TailwindCss, Material UI, Chart js, Formik, Yup** 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ <h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/fateme-mohamadian-dev0824" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fateme-mohamadian-dev0824" height="30" width="40" /></a>
+<a href="https://instagram.com/fateme_mohamadiian.fed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="fateme_mohamadiian.fed" height="30" width="40" /></a>
+</p>
