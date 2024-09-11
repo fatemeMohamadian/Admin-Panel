@@ -33,7 +33,7 @@ export default function Signin() {
             url.searchParams.append('pass', values.pass);
 
             fetch(url, {
-                method: 'POST',
+                method: 'GET',
                 headers: { 'content-type': 'application/json' },
             }).then(res => {
                 if (res.ok) {
