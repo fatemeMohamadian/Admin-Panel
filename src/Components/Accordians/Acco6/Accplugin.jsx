@@ -81,31 +81,31 @@ export default function AccordionTransition6() {
                 <AccordionDetails className='w-full *:my-[10px] flex flex-wrap justify-start items-center'>
                     <Typography className='w-full flex justify-between items-center flex-wrap'>
                         <span className='w-[80%] flex flex-wrap justify-start items-center'>
-                            <FiberManualRecordIcon className='text-[11px] text-[#4d5656]' />
+                            <FiberManualRecordIcon style={{fontSize:'11px'}} className=' text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[17px] justify-center items-center font-loginh1 text-sm'>Mask</span>
                         </span>
                     </Typography>
                     <Typography className='w-full flex justify-evenly items-center flex-wrap'>
                         <span className='w-full flex flex-wrap justify-start items-center'>
-                            <FiberManualRecordIcon className='text-[11px] text-[#4d5656]' />
+                            <FiberManualRecordIcon style={{fontSize:'11px'}} className='text-[11px] text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[15px] justify-center text-sm items-center font-loginh1'>Clipboard</span>
                         </span>
                     </Typography>
                     <Typography className='w-full flex justify-evenly items-center flex-wrap'>
                         <span className='w-full flex flex-wrap justify-start items-center'>
-                            <FiberManualRecordIcon className='text-[11px] text-[#4d5656]' />
+                            <FiberManualRecordIcon style={{fontSize:'11px'}} className='text-[11px] text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[15px] justify-center text-sm items-center font-loginh1'>reCaptcha</span>
                         </span>
                     </Typography>
                     <Typography className='w-full flex justify-evenly items-center flex-wrap'>
                         <span className='w-full flex flex-wrap justify-start items-center'>
-                            <FiberManualRecordIcon className='text-[11px] text-[#4d5656]' />
+                            <FiberManualRecordIcon style={{fontSize:'11px'}} className='text-[11px] text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[15px] justify-center text-sm items-center font-loginh1'>Editor</span>
                         </span>
                     </Typography>
                     <Typography className='w-full flex justify-evenly items-center flex-wrap'>
                         <span className='w-full flex flex-wrap justify-start items-center'>
-                            <FiberManualRecordIcon className='text-[11px] text-[#4d5656]' />
+                            <FiberManualRecordIcon style={{fontSize:'11px'}} className='text-[11px] text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[15px] justify-center text-sm items-center font-loginh1'>Dropzone</span>
                         </span>
                     </Typography>
