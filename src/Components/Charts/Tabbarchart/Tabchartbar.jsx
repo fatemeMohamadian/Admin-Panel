@@ -93,7 +93,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>-245</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                             </span>
                         </div>
                         {/* /////////////////// */}
@@ -109,7 +109,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex w-[30%] flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,100</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 30.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 30.6%</p>
                             </span>
                         </div>
                         {/* ////////////////////////////////// */}
@@ -141,7 +141,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex w-[30%] flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,100</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                             </span>
                         </div>
                         {/*////////////////////////////// */}
@@ -180,7 +180,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>-245</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                             </span>
                         </div>
                         {/* /////////////////// */}
@@ -196,7 +196,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex w-[30%] flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,100</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 30.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 30.6%</p>
                             </span>
                         </div>
                         {/* ////////////////////////////////// */}
@@ -228,7 +228,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex w-[30%] flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,100</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                             </span>
                         </div>
                         {/*////////////////////////////// */}
@@ -267,7 +267,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>-245</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                             </span>
                         </div>
                         {/* /////////////////// */}
@@ -283,7 +283,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex w-[30%] flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,100</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 30.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 30.6%</p>
                             </span>
                         </div>
                         {/* ////////////////////////////////// */}
@@ -315,7 +315,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex w-[30%] flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,100</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                             </span>
                         </div>
                         {/*////////////////////////////// */}
@@ -353,7 +353,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>-245</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                             </span>
                         </div>
                         {/* /////////////////// */}
@@ -369,7 +369,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,100</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 30.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 30.6%</p>
                             </span>
                         </div>
                         {/* ////////////////////////////////// */}
@@ -401,7 +401,7 @@ export default function TabChartBar() {
                             </div>
                             <span className='flex w-[30%] flex-wrap justify-end items-center'>
                                 <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,100</p>
-                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                                <p className='text-[18px] flex justify-center items-center font-text1 text-[#08b059]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                             </span>
                         </div>
                         {/*////////////////////////////// */}

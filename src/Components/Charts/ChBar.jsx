@@ -48,7 +48,7 @@ export default function ChBar() {
                     <div className='flex lg:w-[60%] w-[60%] justify-start items-center'>
                         <Interactionchart />
                     </div>
-                    <span className='flex w-[40%] justify-end *:w-full items-center flex-wrap'>
+                    <span className='flex w-[35%] justify-center *:w-full items-center flex-wrap'>
                         <p className='font-loginform3 text-[#1d2630]'>290+</p>
                         <p className='text-[18px] font-text1 text-[#026de7]'><SouthEastIcon style={{fontSize:'15px'}} className='text-sm' /> 16.3%</p>
                     </span>

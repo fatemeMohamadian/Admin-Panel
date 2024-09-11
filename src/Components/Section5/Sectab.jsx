@@ -33,48 +33,48 @@ export default function Sectab() {
                     <div className='lg:w-[48%] w-full rounded-lg bg-slate-50 py-[15px] *:my-[5px] *:ml-[15px] justify-start items-center flex-wrap'>
                         <span className='w-full flex justify-start items-center'>
                             {/* icon */}
-                            <FiberManualRecordIcon className='text-[13px] text-[#4680ff]' />
+                            <FiberManualRecordIcon style={{fontSize:'15px'}} className='text-[13px] text-[#4680ff]' />
                             <p className='font-text1 text-sm ml-[10px] font-semibold text-[#262d36]'>Item01</p>
                         </span>
                         <span className='w-full justify-start items-center flex'>
                             <p className='font-loginform3'>$23,876</p>
-                            <p className='font-loginform3 flex justify-center items-center font-semibold text-[15px] ml-[6px] text-[#5b6b79]'><CallMadeIcon className='text-[15px] rotate-[-46deg]' /> +$76,343</p>
+                            <p className='font-loginform3 flex justify-center items-center font-semibold text-[15px] ml-[6px] text-[#5b6b79]'><CallMadeIcon style={{fontSize:'15px'}} className='text-[15px] rotate-[-46deg]' /> +$76,343</p>
                         </span>
                     </div>
                     {/* //////////////////////////////// */}
                     <div className='lg:w-[48%] w-full rounded-lg bg-slate-50 py-[15px] *:my-[5px] *:ml-[15px] justify-start items-center flex-wrap'>
                         <span className='w-full flex justify-start items-center'>
                             {/* icon */}
-                            <FiberManualRecordIcon className='text-[13px] text-[#e58a00]' />
+                            <FiberManualRecordIcon style={{fontSize:'15px'}} className='text-[13px] text-[#e58a00]' />
                             <p className='font-text1 ml-[10px] text-sm font-semibold text-[#262d36]'>Item02</p>
                         </span>
                         <span className='w-full justify-start items-center flex'>
                             <p className='font-loginform3'>$23,876</p>
-                            <p className='font-loginform3 flex justify-center items-center font-semibold text-[15px] ml-[6px] text-[#5b6b79]'><CallMadeIcon className='text-[15px] rotate-[-46deg]' /> +$76,343</p>
+                            <p className='font-loginform3 flex justify-center items-center font-semibold text-[15px] ml-[6px] text-[#5b6b79]'><CallMadeIcon style={{fontSize:'15px'}} className='text-[15px] rotate-[-46deg]' /> +$76,343</p>
                         </span>
                     </div>
                     {/* /////////////////////////////// */}
                     <div className='lg:w-[48%] w-full rounded-lg bg-slate-50 py-[15px] *:my-[5px] *:ml-[15px] justify-start items-center flex-wrap'>
                         <span className='w-full flex justify-start items-center'>
                             {/* icon */}
-                            <FiberManualRecordIcon className='text-[13px] text-[#2ca87f]' />
+                            <FiberManualRecordIcon style={{fontSize:'15px'}} className='text-[13px] text-[#2ca87f]' />
                             <p className='font-text1 ml-[10px] text-sm font-semibold text-[#262d36]'>Item03</p>
                         </span>
                         <span className='w-full justify-start items-center flex'>
                             <p className='font-loginform3'>$23,876</p>
-                            <p className='font-loginform3 flex justify-center items-center font-semibold text-[15px] ml-[6px] text-[#5b6b79]'><CallMadeIcon className='text-[15px] rotate-[-46deg]' /> +$76,343</p>
+                            <p className='font-loginform3 flex justify-center items-center font-semibold text-[15px] ml-[6px] text-[#5b6b79]'><CallMadeIcon style={{fontSize:'15px'}} className='text-[15px] rotate-[-46deg]' /> +$76,343</p>
                         </span>
                     </div>
                     {/* /////////////////////////////// */}
                     <div className='lg:w-[48%] w-full rounded-lg bg-slate-50 py-[15px] *:my-[5px] *:ml-[15px] justify-start items-center flex-wrap'>
                         <span className='w-full flex justify-start items-center'>
                             {/* icon */}
-                            <FiberManualRecordIcon className='text-[13px] text-[#c8d9ff]' />
+                            <FiberManualRecordIcon style={{fontSize:'15px'}} className='text-[13px] text-[#c8d9ff]' />
                             <p className='font-text1 ml-[10px] text-sm font-semibold text-[#262d36]'>Item04</p>
                         </span>
                         <span className='w-full justify-start items-center flex'>
                             <p className='font-loginform3'>$23,876</p>
-                            <p className='font-loginform3 flex justify-center items-center font-semibold text-[15px] ml-[6px] text-[#5b6b79]'><CallMadeIcon className='text-[15px] rotate-[-46deg]' /> +$76,343</p>
+                            <p className='font-loginform3 flex justify-center items-center font-semibold text-[15px] ml-[6px] text-[#5b6b79]'><CallMadeIcon style={{fontSize:'15px'}} className='text-[15px] rotate-[-46deg]' /> +$76,343</p>
                         </span>
                     </div>
                     {/* /////////////////////////////// */}

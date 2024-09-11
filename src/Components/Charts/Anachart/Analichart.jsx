@@ -24,7 +24,7 @@ export default function Analichart() {
                     </div>
                     <span className='w-full *:my-[15px] flex justify-center items-center'>
                         <p className='font-loginform3 text-[#262d36]'>$30,200</p>
-                        <p className='font-loginform3 ml-[10px] flex justify-center items-center text-[#2050b9]'><CallMadeIcon className='text-[18px]' /> 30.6%</p>
+                        <p className='font-loginform3 ml-[10px] flex justify-center items-center text-[#2050b9]'><CallMadeIcon style={{fontSize:'15px'}} className='text-[18px]' /> 30.6%</p>
                     </span>
                     <div className='w-full mb-[20px] flex justify-center items-center'>
                         <span className='w-[90%] flex justify-center items-center'><Button sx={{ width: '100%', textTransform: 'capitalize', fontFamily: 'text1', borderRadius: 3, fontFamily: 'text1', color: '#696b6d', borderColor: '#696b6d' }} variant="outlined">View More</Button></span>
@@ -45,7 +45,7 @@ export default function Analichart() {
                     </div>
                     <span className='w-full *:my-[15px] flex justify-center items-center'>
                         <p className='font-loginform3 text-[#262d36]'>$30,200</p>
-                        <p className='font-loginform3 ml-[10px] flex justify-center items-center text-[#07a151]'><CallMadeIcon className='text-[18px]' /> 30.6%</p>
+                        <p className='font-loginform3 ml-[10px] flex justify-center items-center text-[#07a151]'><CallMadeIcon style={{fontSize:'15px'}} className='text-[18px]' /> 30.6%</p>
                     </span>
                     <div className='w-full mb-[20px] flex justify-center items-center'>
                         <span className='w-[90%] flex justify-center items-center'><Button sx={{ width: '100%', textTransform: 'capitalize', fontFamily: 'text1', borderRadius: 3, fontFamily: 'text1', color: '#696b6d', borderColor: '#696b6d' }} variant="outlined">View More</Button></span>
@@ -66,7 +66,7 @@ export default function Analichart() {
                     </div>
                     <span className='w-full *:my-[15px] flex justify-center items-center'>
                         <p className='font-loginform3 text-[#262d36]'>$30,200</p>
-                        <p className='font-loginform3 ml-[10px] flex justify-center items-center text-[#f06514]'><CallMadeIcon className='text-[18px]' /> 30.6%</p>
+                        <p className='font-loginform3 ml-[10px] flex justify-center items-center text-[#f06514]'><CallMadeIcon style={{fontSize:'15px'}} className='text-[18px]' /> 30.6%</p>
                     </span>
                     <div className='w-full mb-[20px] flex justify-center items-center'>
                         <span className='w-[90%] flex justify-center items-center'><Button sx={{ width: '100%', textTransform: 'capitalize', fontFamily: 'text1', borderRadius: 3, fontFamily: 'text1', color: '#696b6d', borderColor: '#696b6d' }} variant="outlined">View More</Button></span>

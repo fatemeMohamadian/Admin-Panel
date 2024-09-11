@@ -17,32 +17,32 @@ export default function Twopartsec() {
             {/* /////////////////// */}
             <div className='w-[90%] *:my-[10px] *:border-[1px] *:border-[#b8b8b9] *:rounded-lg flex flex-wrap justify-between  items-center'>
                 <span className='lg:w-[32%] w-[47%] *:my-[3px] flex  text-center flex-wrap justify-center items-center'>
-                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon className='text-[13px] mr-[5px] text-[#262d36]' /> Apps</h5>
+                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon style={{fontSize:'13px'}} className='text-[13px] mr-[5px] text-[#262d36]' /> Apps</h5>
                     <p className='w-full text-[#262d36] font-loginform text-sm'>10+</p>
                 </span>
                 {/* //////////////////// */}
                 <span className='lg:w-[32%] w-[47%] *:my-[3px] flex  text-center flex-wrap justify-center items-center'>
-                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon className='text-[13px] mr-[5px] text-[#262d36]' /> Other</h5>
+                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon style={{fontSize:'13px'}} className='text-[13px] mr-[5px] text-[#262d36]' /> Other</h5>
                     <p className='w-full text-[#262d36] font-loginform text-sm'>5+</p>
                 </span>
                 {/* //////////////// */}
                 <span className=' lg:w-[32%] w-[47%] *:my-[3px] flex  text-center flex-wrap justify-center items-center'>
-                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon className='text-[13px] mr-[5px] text-[#262d36]' />Widgets</h5>
+                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon style={{fontSize:'13px'}} className='text-[13px] mr-[5px] text-[#262d36]' />Widgets</h5>
                     <p className='w-full text-[#262d36] font-loginform text-sm'>150+</p>
                 </span>
                 {/* /////////////////////// */}
                 <span className='lg:w-[32%] w-[47%] *:my-[3px] flex  text-center flex-wrap justify-center items-center'>
-                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon className='text-[13px] mr-[5px] text-[#262d36]' />Forms</h5>
+                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon style={{fontSize:'13px'}} className='text-[13px] mr-[5px] text-[#262d36]' />Forms</h5>
                     <p className='w-full text-[#262d36] font-loginform text-sm'>50+</p>
                 </span>
                 {/* //////////////////////// */}
                 <span className='lg:w-[32%] w-[47%] *:my-[3px] flex  text-center flex-wrap justify-center items-center'>
-                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon className='text-[13px] mr-[5px] text-[#262d36]' />Components</h5>
+                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon style={{fontSize:'13px'}} className='text-[13px] mr-[5px] text-[#262d36]' />Components</h5>
                     <p className='w-full text-[#262d36] font-loginform text-sm'>200+</p>
                 </span>
                 {/* /////////////////////////// */}
                 <span className='lg:w-[32%] w-[47%] *:my-[3px] flex  text-center flex-wrap justify-center items-center'>
-                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon className='text-[13px] mr-[5px] text-[#262d36]' />Pages</h5>
+                    <h5 className='font-text1 flex justify-center items-center text-sm text-[#686f76]'><FiberManualRecordIcon style={{fontSize:'13px'}} className='text-[13px] mr-[5px] text-[#262d36]' />Pages</h5>
                     <p className='w-full text-[#262d36] font-loginform text-sm'>150+</p>
                 </span>
             </div>

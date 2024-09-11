@@ -40,19 +40,19 @@ export default function Secchart() {
         <div className='w-full my-[15px] flex justify-center items-center flex-wrap'>
           <ul className='flex w-[80%] *:my-[5px] *:font-text1 *:w-full flex-wrap justify-center items-center'>
             <li className='flex hover:bg-gray-100 rounded-md cursor-pointer py-[8px] flex-wrap justify-start items-center '>
-              <FiberManualRecordIcon className='text-[13px] ml-[10px] text-orange-500' />
+              <FiberManualRecordIcon style={{fontSize:'15px'}} className='text-[13px] ml-[10px] text-orange-500' />
               <h4 className='text-sm ml-[10px] text-[#5b6b79]'>Horizontal Layout</h4>
             </li>
             <li className='flex hover:bg-gray-100 rounded-md cursor-pointer py-[8px] flex-wrap justify-start items-center '>
-              <FiberManualRecordIcon className='text-[13px] ml-[10px] text-orange-500' />
+              <FiberManualRecordIcon style={{fontSize:'15px'}} className='text-[13px] ml-[10px] text-orange-500' />
               <h4 className='text-sm ml-[10px] text-[#5b6b79]'>Invoice Generator</h4>
             </li>
             <li className='flex flex-wrap hover:bg-gray-100 rounded-md cursor-pointer py-[8px] justify-start items-center '>
-              <FiberManualRecordIcon className='text-[13px] ml-[10px] text-sky-700' />
+              <FiberManualRecordIcon style={{fontSize:'15px'}} className='text-[13px] ml-[10px] text-sky-700' />
               <h4 className='text-sm ml-[10px] text-[#5b6b79]'>Package Upgrades</h4>
             </li>
             <li className='flex flex-wrap hover:bg-gray-100 rounded-md cursor-pointer py-[8px] justify-start items-center '>
-              <FiberManualRecordIcon className='text-[13px] ml-[10px] text-green-700' />
+              <FiberManualRecordIcon style={{fontSize:'15px'}} className='text-[13px] ml-[10px] text-green-700' />
               <h4 className='text-sm ml-[10px] text-[#5b6b79]'>Figma Auto Layout</h4>
             </li>
           </ul>
