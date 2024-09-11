@@ -2,10 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'loginh1';
+  src: url('../aasets/font/Merriweather-Black.ttf');
+}
+@font-face {
+  font-family: 'loginh2';
+  src: url('../aasets/font/PTF76F.ttf');
+}
+@font-face {
+  font-family: 'loginform';
+  src: url('../aasets/font/RobotoSlab-Bold.ttf');
+}
+@font-face {
+  font-family: 'loginform1';
+  src: url('../aasets/font/PlayfairDisplay-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'loginform3';
+  src: url('../aasets/font/JosefinSlab-Bold.ttf');
+}
+@font-face {
+  font-family: 'text';
+  src: url('../aasets/font/Lato-BlaIta.ttf');
+}
+@font-face {
+  font-family: 'text1';
+  src: url('../aasets/font/RobotoSlab-Regular.ttf');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,8 +38,13 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
+.css-1t0we78-MuiResponsiveChart-container{
+  width: auto;
+}
+/* .box{
+  background-color: #d01f1f;
+} */
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -30,4 +58,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
