@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Menu from '@/Components/Menu/Menu'
 import Analichart from '@/Components/Charts/Anachart/Analichart'

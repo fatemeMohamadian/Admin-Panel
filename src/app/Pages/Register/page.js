@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Piclogin from '@/Components/Loginpage/Piclogin'
 import Inforegister from '@/Components/Inforegister/Inforeg'

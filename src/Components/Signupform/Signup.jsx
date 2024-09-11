@@ -95,6 +95,7 @@ export default function Signup() {
             <input className='w-full bg-[#F8F9FA] font-text border-b outline-none h-[45px] placeholder:font-loginform3'
                 placeholder='Enter Your Email'
                 id="email"
+                autoComplete='off'
                 name="email"
                 type="email"
                 onChange={formik.handleChange}
@@ -112,6 +113,7 @@ export default function Signup() {
                 <input className='w-[90%] bg-[#F8F9FA] font-text border-b outline-none h-[45px] placeholder:font-loginform3'
                     placeholder='Enter Your Password'
                     id="pass"
+                    autoComplete='off'
                     name="pass"
                     type={showpass ? "password" : "text"}
                     onChange={formik.handleChange}
@@ -135,6 +137,7 @@ export default function Signup() {
                     placeholder='Repeat The Password'
                     id="repeat"
                     name="repeat"
+                    autoComplete='off'
                     type={showpass2 ? "password" : "text"}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}

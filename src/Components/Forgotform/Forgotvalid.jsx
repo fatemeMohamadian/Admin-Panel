@@ -28,6 +28,7 @@ export default function Forgotvalid() {
                 id="email"
                 name="email"
                 type="email"
+                autoComplete='off'
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 value={formik.values.email}

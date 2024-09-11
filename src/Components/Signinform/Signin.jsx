@@ -33,7 +33,7 @@ export default function Signin() {
             url.searchParams.append('pass', values.pass);
 
             fetch(url, {
-                method: 'GET',
+                method: 'POST',
                 headers: { 'content-type': 'application/json' },
             }).then(res => {
                 if (res.ok) {
@@ -69,6 +69,7 @@ export default function Signin() {
                 id="email"
                 name="email"
                 type="email"
+                autoComplete='off'
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 value={formik.values.email}
@@ -85,6 +86,7 @@ export default function Signin() {
                     placeholder='Enter Your Password'
                     id="pass"
                     name="pass"
+                    autoComplete='off'
                     type={showpass ? "password" : "text"}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
