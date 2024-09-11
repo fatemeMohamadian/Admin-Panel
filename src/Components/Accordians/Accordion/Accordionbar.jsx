@@ -91,7 +91,7 @@ export default function AccordionTransition() {
                             </span>
                         </Link>
                     </Typography>
-                    <Typography className='w-[80%] mt-[10px] flex justify-start items-center flex-wrap'>
+                    <Typography style={{marginTop:'15px'}} className='w-[80%] flex justify-start items-center flex-wrap'>
                         <Link className={`link ${pathname === '/Pages/Mainpage/Analytics' ? 'text-[#4680ff]' : null}`} href='/Pages/Mainpage/Analytics'>
                             <span className='w-full flex flex-wrap justify-start items-center'>
                                 <FiberManualRecordIcon style={{fontSize:'11px',color:'#4d5656'}} />
