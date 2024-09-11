@@ -23,11 +23,11 @@ export default function ChBar() {
                         <MoreVertIcon />
                     </span>
                 </div>
-                <div className='w-full flex justify-center md:flex-nowrap flex-wrap lg:justify-evenly items-center'>
+                <div className='w-full flex justify-center md:flex-nowrap flex-wrap lg:justify-between items-center'>
                     <div className='flex lg:w-[60%] w-[60%] justify-start items-center'>
                         <Interaction />
                     </div>
-                    <span className='flex w-[40%] border justify-start *:w-full items-center flex-wrap'>
+                    <span className='flex w-[40%] justify-start *:w-full items-center flex-wrap'>
                         <p className='font-loginform3 text-[#1d2630]'>$3000</p>
                         <p className='text-[17px] font-text1 text-sky-500'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm' /> 30.6%</p>
                     </span>
@@ -45,10 +45,10 @@ export default function ChBar() {
                     </span>
                 </div>
                 <div className='w-full flex justify-center md:flex-nowrap flex-wrap lg:justify-between items-center'>
-                    <div className='flex lg:w-auto w-[60%] justify-start items-center'>
+                    <div className='flex lg:w-[60%] w-[60%] justify-start items-center'>
                         <Interactionchart />
                     </div>
-                    <span className='flex w-[35%] justify-start *:w-full items-center flex-wrap'>
+                    <span className='flex w-[40%] justify-start *:w-full items-center flex-wrap'>
                         <p className='font-loginform3 text-[#1d2630]'>290+</p>
                         <p className='text-[18px] font-text1 text-[#026de7]'><SouthEastIcon style={{fontSize:'15px'}} className='text-sm' /> 16.3%</p>
                     </span>

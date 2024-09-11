@@ -87,7 +87,7 @@ export default function AccordionTransition() {
                         <Link className={`link ${pathname === '/Pages/Mainpage/Default' ? 'text-[#4680ff]' : null}`} href='/Pages/Mainpage/Default'>
                             <span className='w-full  flex flex-wrap justify-start items-center'>
                                 <FiberManualRecordIcon style={{fontSize:'11px'}} />
-                                <span className='flex text-[#1f2326] ml-[17px] justify-center items-center font-loginh1 text-sm'>Default</span>
+                                <span className='flex ml-[17px] justify-center items-center font-loginh1 text-sm'>Default</span>
                             </span>
                         </Link>
                     </Typography>
@@ -95,7 +95,7 @@ export default function AccordionTransition() {
                         <Link className={`link ${pathname === '/Pages/Mainpage/Analytics' ? 'text-[#4680ff]' : null}`} href='/Pages/Mainpage/Analytics'>
                             <span className='w-full flex flex-wrap justify-start items-center'>
                                 <FiberManualRecordIcon style={{fontSize:'11px',color:'#4d5656'}} />
-                                <span className='flex ml-[15px] text-[#1f2326] justify-center items-center font-loginh1'>Analytics</span>
+                                <span className='flex ml-[15px]  justify-center items-center font-loginh1'>Analytics</span>
                             </span>
                         </Link>
                     </Typography>

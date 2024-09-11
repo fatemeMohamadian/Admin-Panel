@@ -85,7 +85,7 @@ export default function AccordionTransition9() {
                             <span className='flex text-[#4d5656] ml-[17px] justify-center items-center font-text1 text-sm'>Apexchart</span>
                         </span>
                     </Typography>
-                    <Typography className='w-full flex justify-evenly items-center flex-wrap'>
+                    <Typography style={{marginTop:'15px'}} className='w-full flex justify-evenly items-center flex-wrap'>
                         <span className='w-full flex flex-wrap justify-start items-center'>
                             <FiberManualRecordIcon style={{fontSize:'11px'}} className='text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[15px] justify-center text-sm items-center font-text1'>Organization Chart</span>

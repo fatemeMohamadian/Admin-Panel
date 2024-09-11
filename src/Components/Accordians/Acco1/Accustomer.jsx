@@ -90,7 +90,7 @@ export default function AccordionTransition1() {
                             <AddCircleOutlineIcon style={{fontSize:'11px'}} className='text-[20px]'/>
                         </span>
                     </Typography>
-                    <Typography className='w-full flex justify-evenly items-center flex-wrap'>
+                    <Typography style={{marginTop:'15px'}} className='w-full flex justify-evenly items-center flex-wrap'>
                         <span className='w-full flex flex-wrap justify-start items-center'>
                             <FiberManualRecordIcon style={{fontSize:'11px'}} className='text-[11px] text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[15px] justify-center text-sm items-center font-loginh1'>Cards</span>

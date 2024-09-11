@@ -79,25 +79,25 @@ export default function AccordionTransition5() {
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails className='w-full *:my-[10px] flex flex-wrap justify-start items-center'>
-                    <Typography className='w-full flex justify-between items-center flex-wrap'>
+                    <Typography style={{marginTop:'15px'}} className='w-full flex justify-between items-center flex-wrap'>
                         <span className='w-[80%] flex flex-wrap justify-start items-center'>
                             <FiberManualRecordIcon style={{fontSize:'11px'}} className='text-[11px] text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[17px] justify-center items-center font-loginh1 text-sm'>Basic</span>
                         </span>
                     </Typography>
-                    <Typography className='w-full flex justify-evenly items-center flex-wrap'>
+                    <Typography style={{marginTop:'15px'}} className='w-full flex justify-evenly items-center flex-wrap'>
                         <span className='w-full flex flex-wrap justify-start items-center'>
                             <FiberManualRecordIcon style={{fontSize:'11px'}} className='text-[11px] text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[15px] justify-center text-sm items-center font-loginh1'>Multi Column</span>
                         </span>
                     </Typography>
-                    <Typography className='w-full flex justify-evenly items-center flex-wrap'>
+                    <Typography style={{marginTop:'15px'}} className='w-full flex justify-evenly items-center flex-wrap'>
                         <span className='w-full flex flex-wrap justify-start items-center'>
                             <FiberManualRecordIcon style={{fontSize:'11px'}} className='text-[11px] text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[15px] justify-center text-sm items-center font-loginh1'>Action Bar</span>
                         </span>
                     </Typography>
-                    <Typography className='w-full flex justify-evenly items-center flex-wrap'>
+                    <Typography style={{marginTop:'15px'}} className='w-full flex justify-evenly items-center flex-wrap'>
                         <span className='w-full flex flex-wrap justify-start items-center'>
                             <FiberManualRecordIcon style={{fontSize:'11px'}} className='text-[11px] text-[#4d5656]' />
                             <span className='flex text-[#4d5656] ml-[15px] justify-center text-sm items-center font-loginh1'>Sticky Bar</span>
