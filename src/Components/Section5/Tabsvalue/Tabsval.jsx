@@ -62,7 +62,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>$210,000</p>
-                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                     </span>
                 </div>
                 {/* /////////////////// */}
@@ -76,7 +76,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>-10,000</p>
-                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#07914a]'><CallMadeIcon className='text-sm mr-[5px]' /> 30.6%</p>
+                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#07914a]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm mr-[5px]' /> 30.6%</p>
                     </span>
                 </div>
                 {/* ////////////////////////////////// */}
@@ -104,7 +104,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,10,000</p>
-                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon className='text-sm mr-[5px]' /> 12.3%</p>
+                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm mr-[5px]' /> 12.3%</p>
                     </span>
                 </div>
                 {/* //////////////////////////////////// */}
@@ -118,7 +118,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+5,10,000</p>
-                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon className='text-sm mr-[5px]' /> 25.7%</p>
+                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm mr-[5px]' /> 25.7%</p>
                     </span>
                 </div>
             </CustomTabPanel>
@@ -134,7 +134,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,10,000</p>
-                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon className='text-sm mr-[5px]' /> 12.3%</p>
+                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm mr-[5px]' /> 12.3%</p>
                     </span>
                 </div>
                 {/* /////////////////////// */}
@@ -148,7 +148,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>-10,000</p>
-                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#07914a]'><CallMadeIcon className='text-sm mr-[5px]' /> 30.6%</p>
+                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#07914a]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm mr-[5px]' /> 30.6%</p>
                     </span>
                 </div>
                 {/* ////////////////////////// */}
@@ -162,7 +162,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>$210,000</p>
-                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                     </span>
                 </div>
                 {/* ////////////////////// */}
@@ -176,7 +176,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+5,10,000</p>
-                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon className='text-sm mr-[5px]' /> 25.7%</p>
+                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm mr-[5px]' /> 25.7%</p>
                     </span>
                 </div>
                 {/* //////////////////////////////////////// */}
@@ -206,7 +206,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>-10,000</p>
-                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#07914a]'><CallMadeIcon className='text-sm mr-[5px]' /> 30.6%</p>
+                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#07914a]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm mr-[5px]' /> 30.6%</p>
                     </span>
                 </div>
                 {/* //////////////////////////////////////// */}
@@ -234,7 +234,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+2,10,000</p>
-                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon className='text-sm mr-[5px]' /> 12.3%</p>
+                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm mr-[5px]' /> 12.3%</p>
                     </span>
                 </div>
                 {/* ////////////////////////////////// */}
@@ -248,7 +248,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>+5,10,000</p>
-                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon className='text-sm mr-[5px]' /> 25.7%</p>
+                        <p className='text-[18px] font-text1 text-[#08be5d] flex justify-center items-center'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm mr-[5px]' /> 25.7%</p>
                     </span>
                 </div>
                 {/* /////////////////////////////////// */}
@@ -262,7 +262,7 @@ export default function BasicTabs() {
                     </div>
                     <span className='flex flex-wrap justify-end items-center'>
                         <p className='w-full text-[#262d36] font-loginform flex justify-end items-center'>$210,000</p>
-                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
+                        <p className='text-[18px] flex justify-center items-center font-text1 text-[#be3345]'><CallMadeIcon style={{fontSize:'15px'}} className='text-sm rotate-[180deg] mr-[5px]' /> 10.6%</p>
                     </span>
                 </div>
             </CustomTabPanel>
