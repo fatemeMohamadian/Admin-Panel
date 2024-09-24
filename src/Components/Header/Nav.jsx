@@ -8,6 +8,7 @@ import WidgetsIcon from '@mui/icons-material/Widgets';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import CloseIcon from '@mui/icons-material/Close';
 import BasicTabs from '../Tabs/Tab';
+import Swal from 'sweetalert2';
 export default function Nav() {
     const logout = useRef()
     const myshow = (e) => {
@@ -18,9 +19,19 @@ export default function Nav() {
         logout.current.style.display = 'none'
     }
     const myout = () => {
-        if (window.confirm('Are You Sure for Logout Account?')) {
-            window.location.href = '/';
-        }
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, I'm Sure"
+        }).then((result) => {
+            if (result.isConfirmed) {
+               window.location.href = '/';
+            }
+        });
     }
     return (
         <div className='w-full  flex justify-evenly items-center flex-wrap'>
@@ -61,7 +72,7 @@ export default function Nav() {
                     </div>
                 </section>
             </span>
-           
+
         </div>
     )
 }

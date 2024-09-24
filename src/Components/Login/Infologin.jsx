@@ -4,11 +4,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from 'next/link';
 import Signin from '@/Components/Signinform/Signin';
 import Logo from '../Piclogo/Logo';
+import CustomizedSnackbars from '../Snackbar/Snackalert';
 export default function Infologin() {
   return (
     <div className='w-[75%] flex justify-center items-center flex-wrap'>
       <div className='w-full my-[25px] justify-start items-center flex'>
-         <Logo/>
+        <Logo />
       </div>
       <div className='w-full my-[30px] *:my-[3px] *:w-full flex flex-wrap justify-start items-center'>
         <h1 className='font-loginh1 text-2xl text-[#0162e8]'>Welcome Back!</h1>
@@ -32,6 +33,7 @@ export default function Infologin() {
         <span className='w-full flex flex-wrap  justify-start items-center'>
           <p className='font-loginform3'>Dont't have an account?</p>
           <h3 className='font-loginform lg:w-auto w-full text-gray-700 ml-[3px]'><Link className='hover:underline transition-all duration-700' href='Pages/Register'>Create an Account</Link></h3>
+          <CustomizedSnackbars />
         </span>
       </div>
     </div>

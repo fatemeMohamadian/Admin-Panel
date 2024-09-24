@@ -33,6 +33,17 @@
 .css-1t0we78-MuiResponsiveChart-container{
   width: auto;
 }
-/* .box{
-  background-color: #1f2326;
-} */
+.swal2-confirm{
+  background-color: #0162e8;
+}
+.swal2-timer-progress-bar {
+  background-color: #0070f9;
+  height: 8px;
+  border-radius: 6px;
+}
+.swal2-title{
+  font-family: 'loginform';
+}
+.swal2-html-container{
+  font-family: 'loginform3';
+}

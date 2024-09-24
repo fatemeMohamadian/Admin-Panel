@@ -5,6 +5,7 @@ import * as Yup from 'yup';
 import ErrorIcon from '@mui/icons-material/Error';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
+import Swal from 'sweetalert2';
 export default function Signup() {
     const [showpass, setShowpass] = useState(true)
     const [showpass2, setShowpass2] = useState(true)
@@ -45,13 +46,23 @@ export default function Signup() {
                 if (res.ok) {
                     return res.json();
                 }
-            }).then(task => {
-                alert('Your registration was successful!!')
-                window.location.href = '/';
+            }).then(tasks => {
+                // alert('Your registration was successful!!')
+                Swal.fire({
+                    icon: "success",
+                    title: "Now....!",
+                    text: "Your registration was successful!!",
+                    timerProgressBar:true,
+                    showConfirmButton:false,
+                    timer:3000
+                });
+                setTimeout(() => {
+                    window.location.href = '/';
+                }, 4000);
             })
         },
     });
-    
+
     const show = () => {
         if (showpass) {
             showic.current.children[0].style.display = 'flex'

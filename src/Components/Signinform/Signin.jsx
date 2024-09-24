@@ -5,15 +5,14 @@ import * as Yup from 'yup';
 import ErrorIcon from '@mui/icons-material/Error';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
+import Swal from 'sweetalert2';
 export default function Signin() {
     const [showpass, setShowpass] = useState(true)
     const showic = useRef()
-    // const inpemail = useRef()
-    // const inppas = useRef()
     const formik = useFormik({
         initialValues: {
-            email: '',
-            pass: '',
+            email: 'admin@gmail.com',
+            pass: 'ad24#Min',
         },
         validationSchema: Yup.object({
             email: Yup.string()
@@ -21,11 +20,11 @@ export default function Signin() {
                 .required(`What's your Email address?`),
             pass: Yup.string()
                 .required(`Password is required!`)
-                .min(8, 'Must be 8 characters long or More')
-                .matches(/[0-9]/, 'Password must have a Number')
-                .matches(/[A-Z]/, 'Password must have an uppercase char')
-                .matches(/[a-z]/, 'Password must have a lowercase char')
-                .matches(/[&#$@!*]/, 'Password must have a Symbol'),
+                .min(8, 'Password is invalid!')
+                .matches(/[0-9]/, 'Password is invalid!')
+                .matches(/[A-Z]/, 'Password is invalid!')
+                .matches(/[a-z]/, 'Password is invalid!')
+                .matches(/[&#$@!*]/, 'Password is invalid!'),
         }),
         onSubmit: values => {
             const url = new URL('https://66c63c58134eb8f434972511.mockapi.io/infousers');
@@ -40,12 +39,40 @@ export default function Signin() {
                     return res.json();
                 }
             }).then(tasks => {
-                if (tasks == undefined) {
-                    alert('User Not Found!!!\nEmail address or Password not exist!')
+                if (tasks === undefined) {
+                    Swal.fire({
+                        icon: "error",
+                        title: "User Not Found!!!",
+                        text: "Email address or Password not exist!",
+                    });
                 }
                 else {
-                    alert('Your Account Is Ready!!!Welcome')
-                    window.location.href = 'Pages/Mainpage/Default';
+                    // Swal.fire({
+                    //     title: "Welcome...!",
+                    //     text: "Your Account Is Ready!",
+                    //     icon: "success",
+                    //     showConfirmButton:false
+                    // });
+                    const Toast = Swal.mixin({
+                        toast: true,
+                        position: "top-start",
+                        showConfirmButton: false,
+                        timer: 3000,
+                        timerProgressBar: true,
+                        didOpen: (toast) => {
+                            toast.onmouseenter = Swal.stopTimer;
+                            toast.onmouseleave = Swal.resumeTimer;
+                        }
+                    });
+                    Toast.fire({
+                        title: "Welcome...!",
+                        text: "Your Account Is Ready!",
+                        icon: "success",
+                        width: '400px',
+                    });
+                    setTimeout(() => {
+                        window.location.href = 'Pages/Mainpage/Default';
+                    }, 3500);
                 }
             })
         },
@@ -73,6 +100,7 @@ export default function Signin() {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 value={formik.values.email}
+                onFocus={() => formik.setValues({ ...formik.values, email: '' })}
             />
             {formik.touched.email && formik.errors.email ? (
                 <div className='w-full flex justify-start items-center'>
@@ -91,6 +119,7 @@ export default function Signin() {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                     value={formik.values.pass}
+                    onFocus={() => formik.setValues({ ...formik.values, pass: '' })}
                 />
                 <div onClick={show} ref={showic} className='w-[10%] *:absolute relative flex justify-center cursor-pointer items-center'>
                     <span className='hidden justify-center items-center w-full'><VisibilityIcon /></span>
