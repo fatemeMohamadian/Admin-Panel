@@ -13,7 +13,7 @@
 
  📅2024-09-11
  
- 👩‍💻Used **Html5 , React, Next.Js, TailwindCss, Material UI, Chart js, Formik, Yup** 
+ 👩‍💻Used **Html5 , React, Next.Js, TailwindCss, Material UI, Chart js, Formik, Yup, SweetAlert2** 
 
  <h3 align="left">Connect with me:</h3>
 <p align="left">
